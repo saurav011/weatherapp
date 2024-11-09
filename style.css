@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:url(Wallpaper\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow:hidden;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-container input {
+    padding: 10px;
+    border: 2px solid #72a2da;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 300px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.search-container input:focus {
+    border-color: #8ab0df;
+    outline: none;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3C3C44;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.search-container button:hover {
+    background-color: #5C5C66;
+}
+
+.current-info {
+    background: #5c8389;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.date-container {
+    margin-bottom: 15px;
+}
+
+.time {
+    font-size: 48px;
+    font-weight: bold;
+    color: #3C3C44;
+}
+
+.date {
+    font-size: 20px;
+    color: #023452;
+}
+
+.place-container {
+    margin-top: 10px;
+}
+
+.time-zone {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3C3C44;
+}
+
+.country {
+    font-size: 18px;
+    color: #535252;
+}
+
+.future-forecast {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.today {
+    background: #b7e6ed;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+    text-align: center;
+}
+
+.weather-forecast {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.weather-item {
+    margin: 10px;
+    background: #bcdfe4;
+    background: ;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.w-icon {
+    width: 50px;
+}
+
+.temp {
+    font-size: 18px;
+    color: #3C3C44;
+}
